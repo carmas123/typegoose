@@ -17,6 +17,8 @@ export interface BasePropOptions {
   index?: boolean;
   sparse?: boolean;
   expires?: string | number;
+  get?: Function;
+  set?: Function;
 }
 
 export interface PropOptions extends BasePropOptions {
